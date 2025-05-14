@@ -1,0 +1,88 @@
+{
+  "apps": [
+    {
+      "name": "7zip",
+      "displayName": "7-Zip",
+      "chocoPkg": "7zip",
+      "matchPatterns": [ "7-Zip", "7-Zip.*", "7zip" ],
+      "convertIfNotChocoManaged": true
+    },
+    {
+      "name": "adobereader",
+      "displayName": "Adobe Acrobat Reader",
+      "chocoPkg": "adobereader",
+      "matchPatterns": [ "Adobe Acrobat Reader.*", "Adobe Reader.*", "Acrobat Reader.*" ],
+      "convertIfNotChocoManaged": false
+    },
+    {
+      "name": "vlc",
+      "displayName": "VLC media player",
+      "chocoPkg": "vlc",
+      "matchPatterns": [ "VLC media player.*", "VLC.*", "VideoLAN.*" ],
+      "convertIfNotChocoManaged": true
+    },
+    {
+      "name": "googlechrome",
+      "displayName": "Google Chrome",
+      "chocoPkg": "googlechrome",
+      "matchPatterns": [ "Google Chrome.*", "Chrome.*" ],
+      "convertIfNotChocoManaged": true
+    },
+    {
+      "name": "firefox",
+      "displayName": "Mozilla Firefox",
+      "chocoPkg": "firefox",
+      "matchPatterns": [ "Mozilla Firefox.*", "Firefox.*" ],
+      "convertIfNotChocoManaged": true
+    },
+    {
+      "name": "notepadplusplus",
+      "displayName": "Notepad++",
+      "chocoPkg": "notepadplusplus",
+      "matchPatterns": [ "Notepad\\+\\+.*", "Notepad\\+\\+ \\(64-bit\\).*" ],
+      "convertIfNotChocoManaged": true
+    },
+    {
+      "name": "git",
+      "displayName": "Git",
+      "chocoPkg": "git",
+      "matchPatterns": [ "Git.*", "Git for Windows.*" ],
+      "convertIfNotChocoManaged": true
+    },
+    {
+      "name": "vscode",
+      "displayName": "Visual Studio Code",
+      "chocoPkg": "vscode",
+      "matchPatterns": [ "Microsoft Visual Studio Code.*", "VS Code.*", "Visual Studio Code.*" ],
+      "convertIfNotChocoManaged": true
+    },
+    {
+      "name": "java",
+      "displayName": "Java Runtime Environment",
+      "chocoPkg": "jre8",
+      "matchPatterns": [ "Java.*Runtime.*", "JRE.*" ],
+      "convertIfNotChocoManaged": true
+    },
+    {
+      "name": "putty",
+      "displayName": "PuTTY",
+      "chocoPkg": "putty",
+      "matchPatterns": [ "PuTTY.*" ],
+      "convertIfNotChocoManaged": true
+    },
+    {
+      "name": "zoom",
+      "displayName": "Zoom Client for Meetings",
+      "chocoPkg": "zoom",
+      "matchPatterns": [ "Zoom.*Meeting.*", "Zoom Client.*" ],
+      "convertIfNotChocoManaged": true
+    },
+    {
+      "name": "microsoftteams",
+      "displayName": "Microsoft Teams",
+      "chocoPkg": "microsoft-teams",
+      "matchPatterns": [ "Microsoft Teams.*", "Teams.*" ],
+      "convertIfNotChocoManaged": true
+    }
+  ]
+}
