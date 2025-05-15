@@ -209,7 +209,7 @@
       "customInstall": true,
       "downloadType": "msi",
       "versionCheckUrl": "https://api.github.com/repos/firezone/firezone/releases",
-      "installArgs": "/qn /norestart",
+      "installArgs": "",
       "advancedDetection": true,
       "additionalPatterns": ["Firezone Client", "Firezone Client.*"],
       "componentFilter": "gui-client",
