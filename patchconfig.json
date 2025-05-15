@@ -6,7 +6,11 @@
       "chocoPkg": "7zip",
       "matchPatterns": [ "7-Zip", "7-Zip.*", "7zip" ],
       "convertIfNotChocoManaged": true,
-      "required": false
+      "required": false,
+      "executableNames": ["7z.exe", "7zG.exe", "7zFM.exe"],
+      "directoryPatterns": ["7-Zip"],
+      "configFilePatterns": ["7z.ini", "7zip.ini", "7z.conf"],
+      "organizationNamePatterns": ["7-Zip"]
     },
     {
       "name": "adobereader",
@@ -14,7 +18,11 @@
       "chocoPkg": "adobereader",
       "matchPatterns": [ "Adobe Acrobat Reader.*", "Adobe Reader.*", "Acrobat Reader.*" ],
       "convertIfNotChocoManaged": false,
-      "required": false
+      "required": false,
+      "executableNames": ["AcroRd32.exe", "Acrobat.exe"],
+      "directoryPatterns": ["Adobe", "Acrobat", "Reader"],
+      "configFilePatterns": ["Acrobat*.ini", "Adobe*.ini", "reader*.ini"],
+      "organizationNamePatterns": ["Adobe"]
     },
     {
       "name": "vlc",
@@ -22,7 +30,12 @@
       "chocoPkg": "vlc",
       "matchPatterns": [ "VLC media player.*", "VLC.*", "VideoLAN.*" ],
       "convertIfNotChocoManaged": true,
-      "required": false
+      "required": false,
+      "executableNames": ["vlc.exe"],
+      "directoryPatterns": ["VLC", "VideoLAN"],
+      "configFilePatterns": ["vlcrc", "vlc-qt-interface.ini", "vlc*.conf"],
+      "organizationNamePatterns": ["VideoLAN"],
+      "requireStrongerEvidence": true
     },
     {
       "name": "googlechrome",
@@ -30,7 +43,12 @@
       "chocoPkg": "googlechrome",
       "matchPatterns": [ "Google Chrome.*", "Chrome.*" ],
       "convertIfNotChocoManaged": true,
-      "required": false
+      "required": false,
+      "executableNames": ["chrome.exe"],
+      "directoryPatterns": ["Google", "Chrome"],
+      "configFilePatterns": ["Preferences", "Local State", "chrome*.ini", "chrome*.conf"],
+      "organizationNamePatterns": ["Google"],
+      "requireStrongerEvidence": true
     },
     {
       "name": "firefox",
@@ -38,7 +56,12 @@
       "chocoPkg": "firefox",
       "matchPatterns": [ "Mozilla Firefox.*", "Firefox.*" ],
       "convertIfNotChocoManaged": true,
-      "required": false
+      "required": false,
+      "executableNames": ["firefox.exe"],
+      "directoryPatterns": ["Firefox", "Mozilla Firefox"],
+      "configFilePatterns": ["firefox.cfg", "prefs.js", "profiles.ini"],
+      "organizationNamePatterns": ["Mozilla"],
+      "requireStrongerEvidence": true
     },
     {
       "name": "notepadplusplus",
@@ -184,10 +207,19 @@
       "convertIfNotChocoManaged": false,
       "required": false,
       "customInstall": true,
-      "downloadUrl": "https://github.com/firezone/firezone/releases/download/gui-client-1.4.13/firezone-client-gui-windows_1.4.13_x86_64.msi",
       "downloadType": "msi",
-      "versionCheckUrl": "https://api.github.com/repos/firezone/firezone/releases/latest",
-      "installArgs": "/quiet /norestart"
+      "versionCheckUrl": "https://api.github.com/repos/firezone/firezone/releases",
+      "installArgs": "/qn /norestart",
+      "advancedDetection": true,
+      "additionalPatterns": ["Firezone Client", "Firezone Client.*"],
+      "componentFilter": "gui-client",
+      "installPaths": [
+        "C:\\Program Files\\Firezone Client",
+        "C:\\Program Files (x86)\\Firezone Client"
+      ],
+      "detectVersionDynamically": true,
+      "useGitHubApi": true,
+      "apiType": "releases"
     }
   ]
 }
