@@ -5,84 +5,189 @@
       "displayName": "7-Zip",
       "chocoPkg": "7zip",
       "matchPatterns": [ "7-Zip", "7-Zip.*", "7zip" ],
-      "convertIfNotChocoManaged": true
+      "convertIfNotChocoManaged": true,
+      "required": false
     },
     {
       "name": "adobereader",
       "displayName": "Adobe Acrobat Reader",
       "chocoPkg": "adobereader",
       "matchPatterns": [ "Adobe Acrobat Reader.*", "Adobe Reader.*", "Acrobat Reader.*" ],
-      "convertIfNotChocoManaged": false
+      "convertIfNotChocoManaged": false,
+      "required": false
     },
     {
       "name": "vlc",
       "displayName": "VLC media player",
       "chocoPkg": "vlc",
       "matchPatterns": [ "VLC media player.*", "VLC.*", "VideoLAN.*" ],
-      "convertIfNotChocoManaged": true
+      "convertIfNotChocoManaged": true,
+      "required": false
     },
     {
       "name": "googlechrome",
       "displayName": "Google Chrome",
       "chocoPkg": "googlechrome",
       "matchPatterns": [ "Google Chrome.*", "Chrome.*" ],
-      "convertIfNotChocoManaged": true
+      "convertIfNotChocoManaged": true,
+      "required": false
     },
     {
       "name": "firefox",
       "displayName": "Mozilla Firefox",
       "chocoPkg": "firefox",
       "matchPatterns": [ "Mozilla Firefox.*", "Firefox.*" ],
-      "convertIfNotChocoManaged": true
+      "convertIfNotChocoManaged": true,
+      "required": false
     },
     {
       "name": "notepadplusplus",
       "displayName": "Notepad++",
       "chocoPkg": "notepadplusplus",
       "matchPatterns": [ "Notepad\\+\\+.*", "Notepad\\+\\+ \\(64-bit\\).*" ],
-      "convertIfNotChocoManaged": true
+      "convertIfNotChocoManaged": true,
+      "required": false
     },
     {
       "name": "git",
       "displayName": "Git",
       "chocoPkg": "git",
       "matchPatterns": [ "Git.*", "Git for Windows.*" ],
-      "convertIfNotChocoManaged": true
+      "convertIfNotChocoManaged": true,
+      "required": false
     },
     {
       "name": "vscode",
       "displayName": "Visual Studio Code",
       "chocoPkg": "vscode",
       "matchPatterns": [ "Microsoft Visual Studio Code.*", "VS Code.*", "Visual Studio Code.*" ],
-      "convertIfNotChocoManaged": true
+      "convertIfNotChocoManaged": true,
+      "required": false
     },
     {
       "name": "java",
       "displayName": "Java Runtime Environment",
       "chocoPkg": "jre8",
       "matchPatterns": [ "Java.*Runtime.*", "JRE.*" ],
-      "convertIfNotChocoManaged": true
+      "convertIfNotChocoManaged": true,
+      "required": false
     },
     {
       "name": "putty",
       "displayName": "PuTTY",
       "chocoPkg": "putty",
       "matchPatterns": [ "PuTTY.*" ],
-      "convertIfNotChocoManaged": true
+      "convertIfNotChocoManaged": true,
+      "required": false
     },
     {
       "name": "zoom",
       "displayName": "Zoom Client for Meetings",
       "chocoPkg": "zoom",
       "matchPatterns": [ "Zoom.*Meeting.*", "Zoom Client.*" ],
-      "convertIfNotChocoManaged": true
+      "convertIfNotChocoManaged": true,
+      "required": false
     },
     {
       "name": "microsoftteams",
       "displayName": "Microsoft Teams",
       "chocoPkg": "microsoft-teams",
       "matchPatterns": [ "Microsoft Teams.*", "Teams.*" ],
-      "convertIfNotChocoManaged": true
+      "convertIfNotChocoManaged": true,
+      "required": false
+    },
+    {
+      "name": "bleachbit",
+      "displayName": "BleachBit",
+      "chocoPkg": "bleachbit",
+      "matchPatterns": [ "BleachBit.*" ],
+      "convertIfNotChocoManaged": true,
+      "required": false
+    },
+    {
+      "name": "discord",
+      "displayName": "Discord",
+      "chocoPkg": "discord",
+      "matchPatterns": [ "Discord.*" ],
+      "convertIfNotChocoManaged": true,
+      "required": false
+    },
+    {
+      "name": "obs-studio",
+      "displayName": "OBS Studio",
+      "chocoPkg": "obs-studio",
+      "matchPatterns": [ "OBS Studio.*", "Open Broadcaster Software.*" ],
+      "convertIfNotChocoManaged": true,
+      "required": false
+    },
+    {
+      "name": "partitionwizard",
+      "displayName": "MiniTool Partition Wizard",
+      "chocoPkg": "partitionwizard",
+      "matchPatterns": [ "MiniTool Partition Wizard.*", "Partition Wizard.*" ],
+      "convertIfNotChocoManaged": true,
+      "required": false
+    },
+    {
+      "name": "python",
+      "displayName": "Python",
+      "chocoPkg": "python",
+      "matchPatterns": [ "Python.*", "Python 3.*" ],
+      "convertIfNotChocoManaged": true,
+      "required": false
+    },
+    {
+      "name": "revo-uninstaller",
+      "displayName": "Revo Uninstaller",
+      "chocoPkg": "revo-uninstaller",
+      "matchPatterns": [ "Revo Uninstaller.*" ],
+      "convertIfNotChocoManaged": true,
+      "required": false
+    },
+    {
+      "name": "wiztree",
+      "displayName": "WizTree",
+      "chocoPkg": "wiztree",
+      "matchPatterns": [ "WizTree.*" ],
+      "convertIfNotChocoManaged": true,
+      "required": false
+    },
+    {
+      "name": "crystaldiskinfo",
+      "displayName": "CrystalDiskInfo",
+      "chocoPkg": "crystaldiskinfo",
+      "matchPatterns": [ "CrystalDiskInfo.*" ],
+      "convertIfNotChocoManaged": true,
+      "required": false
+    },
+    {
+      "name": "crystaldiskmark",
+      "displayName": "CrystalDiskMark",
+      "chocoPkg": "crystaldiskmark",
+      "matchPatterns": [ "CrystalDiskMark.*" ],
+      "convertIfNotChocoManaged": true,
+      "required": false
+    },
+    {
+      "name": "nextcloud-client",
+      "displayName": "Nextcloud",
+      "chocoPkg": "nextcloud-client",
+      "matchPatterns": [ "Nextcloud.*", "Nextcloud Desktop.*" ],
+      "convertIfNotChocoManaged": true,
+      "required": false
+    },
+    {
+      "name": "firezone",
+      "displayName": "Firezone VPN Client",
+      "chocoPkg": null,
+      "matchPatterns": [ "Firezone.*", "Firezone VPN.*" ],
+      "convertIfNotChocoManaged": false,
+      "required": false,
+      "customInstall": true,
+      "downloadUrl": "https://github.com/firezone/firezone/releases/download/gui-client-1.4.13/firezone-client-gui-windows_1.4.13_x86_64.msi",
+      "downloadType": "msi",
+      "versionCheckUrl": "https://api.github.com/repos/firezone/firezone/releases/latest",
+      "installArgs": "/quiet /norestart"
     }
   ]
 }
